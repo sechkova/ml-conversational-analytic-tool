@@ -1,12 +1,12 @@
 name: docs-build
-on :
+on:
   push:
     branches:
       - main
     paths:
       - "mcat/*.py"
 
-jobs:
+jonbs:
   docs-build:
     name: Automatic docs build
     runs-on: ubuntu-latest
