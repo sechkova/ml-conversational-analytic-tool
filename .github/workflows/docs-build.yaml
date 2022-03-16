@@ -6,7 +6,7 @@ on:
     paths:
       - "mcat/*.py"
 
-jonbs:
+jobs:
   docs-build:
     name: Automatic docs build
     runs-on: ubuntu-latest
